@@ -1,0 +1,8 @@
+cpu: "12th Gen Intel Core i5-1235U (2 P-cores + 8 E-cores, 12 threads)"
+physical_cores: 10
+ram_gb: 15.7
+os: "Windows 11 Home"
+gpu: none (Intel Iris Xe iGPU not used)
+raspberry_pi_available: unknown (not answered; treated as NOT available - no Pi numbers will be claimed)
+webcam_available: unknown (not answered; webcam self-test skipped unless user runs it)
+report_deadline: unknown (not answered; assumed >= 8 days -> CPU-STANDARD)

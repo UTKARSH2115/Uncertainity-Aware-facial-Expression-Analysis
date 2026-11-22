@@ -1,0 +1,15 @@
+﻿# Allowlist: only project code is tracked
+/*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/src/
+!/scripts/
+!/configs/
+!/tests/
+!/models_ext/
+src/m3.egg-info/
+src/m3/report/
+scripts/make_overleaf_zip.py
+__pycache__/
+*.pyc

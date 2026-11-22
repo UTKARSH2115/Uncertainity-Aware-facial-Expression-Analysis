@@ -1,0 +1,12 @@
+project: maesmos-m3
+classes: [neutral, happiness, surprise, sadness, anger, disgust, fear, contempt]
+data: {npz: data/processed/ferplus.npz, val_split_seed: 2026}
+train:
+  batch_size: 128
+  warmup_epochs: 1
+  weight_decay: 1.0e-4
+  lr: {tinycnn: 2.0e-3, mnv3s: 5.0e-4, r18: 5.0e-4}
+  epochs: {mnv3s: 15, tinycnn: 25, r18: 10}
+  input_size: 64
+losses: {label_smoothing: 0.1, kd_tau: 4.0, kd_weight: 0.5, ra_prob: 0.5, ra_levels: [8,10,12,16,20,24,32,40]}
+seeds: [0, 1, 2]
