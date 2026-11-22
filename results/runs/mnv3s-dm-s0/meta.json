@@ -1,0 +1,10 @@
+{
+ "rid": "mnv3s-dm-s0",
+ "wall_s": 3595.790454149246,
+ "nan": false,
+ "input_size": 64,
+ "torch": "2.15.0+cpu",
+ "device": "cpu",
+ "final_train_loss": 8.05490362433566,
+ "end": "Sat Nov 21 18:33:51 2026"
+}

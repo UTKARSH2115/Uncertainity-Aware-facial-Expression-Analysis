@@ -1,0 +1,8 @@
+{
+ "rid": "mnv3s-dm-s0",
+ "epochs": 15,
+ "lr": 0.0005,
+ "bs": 128,
+ "size": 64,
+ "threads": 10
+}

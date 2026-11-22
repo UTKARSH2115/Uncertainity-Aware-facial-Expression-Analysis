@@ -1,0 +1,10 @@
+{
+ "rid": "tinycnn-soft-s0",
+ "wall_s": 1837.2607889175415,
+ "nan": false,
+ "input_size": 48,
+ "torch": "2.15.0+cpu",
+ "device": "cpu",
+ "final_train_loss": 0.7914290114695175,
+ "end": "Sat Nov 21 15:53:43 2026"
+}

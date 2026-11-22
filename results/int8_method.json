@@ -1,0 +1,12 @@
+{
+ "method": "Percentile",
+ "valA_soft_nll": {
+  "MinMax": 0.9307894764064586,
+  "Entropy": 0.9307894764064586,
+  "Percentile": 0.9072143171233719
+ },
+ "runs": [
+  "tinycnn-soft-s0",
+  "mnv3s-soft-s0"
+ ]
+}

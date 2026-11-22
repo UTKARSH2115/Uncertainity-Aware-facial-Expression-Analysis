@@ -1,0 +1,3 @@
+{"budget":"CPU-STANDARD","batch_size":128,"threads":6,"input_size_pretrained":64,"epochs":{"mnv3s":15,"tinycnn":25,"r18":10},
+ "measured_s_per_epoch":{"tinycnn":50,"mnv3s":75,"r18":270},
+ "est_hours":{"P0":6.2,"P1":2.0},"note":"timings from scripts/bench_speed.py (results/bench_speed.json)"}

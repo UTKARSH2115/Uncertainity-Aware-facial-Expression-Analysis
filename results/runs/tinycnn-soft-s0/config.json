@@ -1,0 +1,8 @@
+{
+ "rid": "tinycnn-soft-s0",
+ "epochs": 25,
+ "lr": 0.002,
+ "bs": 128,
+ "size": 48,
+ "threads": 10
+}

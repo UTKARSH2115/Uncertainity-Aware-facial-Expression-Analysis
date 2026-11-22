@@ -1,0 +1,4 @@
+split,n_raw,drop_F1,drop_F2,drop_F3,tied,n_final,neutral,happiness,surprise,sadness,anger,disgust,fear,contempt
+train,28709,148,2,406,1213,26940,9365,7410,3378,3403,2399,175,648,162
+val,3589,10,0,55,128,3396,1242,880,441,395,310,31,73,24
+test,3589,15,1,52,145,3376,1166,909,421,424,316,22,92,26

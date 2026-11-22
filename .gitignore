@@ -1,4 +1,4 @@
-﻿# Allowlist: only project code is tracked
+﻿# Allowlist: only project code, results and small data samples are tracked
 /*
 !/.gitignore
 !/README.md
@@ -8,8 +8,22 @@
 !/configs/
 !/tests/
 !/models_ext/
+!/results/
+!/data/
 src/m3.egg-info/
 src/m3/report/
 scripts/make_overleaf_zip.py
 __pycache__/
 *.pyc
+*.pdf
+
+# results: keep summaries, tables, PNG figures, per-run json/csv; drop heavy artefacts
+results/runs/**/*.npy
+results/runs/**/*.pt
+results/runs/**/*.onnx
+!results/runs/mnv3s-soft-s0/onnx/
+!results/runs/mnv3s-soft-s0/onnx/int8.onnx
+
+# data: only small samples
+data/raw/
+data/processed/
